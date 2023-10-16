@@ -1,0 +1,196 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Karla:ital,wght@1,300&family=Onest:wght@200;500&family=Open+Sans:wght@300&family=PT+Serif&family=Playfair+Display:ital,wght@1,500&family=Poppins:ital,wght@1,200&display=swap");
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+  width: 100%;
+  min-height: 100px;
+  background: olive;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+}
+
+nav, ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li img {
+  padding-top: 2px;
+}
+
+nav h1, img {
+  margin-left: 10px; /* Adjusted margin for mobile */
+  color: rgba(13, 212, 153, 0.87);
+}
+
+ul {
+  justify-content: center;
+}
+
+ul li {
+  margin-left: 20px;
+}
+
+/* 'last' section styles */
+.last {
+  width: 100%;
+  background: rgb(100, 2, 76);
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: slide 5s linear;
+}
+
+/* 'search' section styles */
+.search {
+  width: 100%;
+  height: 100px; /* Increased height for mobile */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: green;
+  color: aliceblue;
+}
+
+main input {
+  margin-left: 10px;
+}
+
+#submit {
+  background: rgb(207, 23, 94);
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+input[type='radio'] {
+  width: 45px;
+  height: 15px;
+}
+
+#check1, #check2 {
+  margin-left: 20px;
+}
+
+/* 'selection' buttons */
+.selection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.selection button {
+  background: rgb(223, 216, 202);
+  color: rgb(170, 108, 26);
+  border-radius: 20px;
+  font-size: larger;
+  margin-bottom: 5px;
+}
+
+/* 'recom' section styles */
+.recom {
+  width: 100%;
+  background: black;
+  color: azure;
+  text-align: center;
+  margin-top: 5px;
+  font-family: "Croissant One", serif;
+  font-size: small;
+}
+
+/* 'item' styles for food menu items */
+.item {
+  width: 100%;
+  height: auto; /* Adjusted height for mobile */
+  background: white;
+  color: rgb(17, 20, 22);
+  font-family: "Croissant One", serif;
+  font-size: small;
+  margin-bottom: 5px;
+}
+
+.item img {
+  width: 100%;
+  height: 200px;
+}
+
+.item p {
+  padding: 0 10px; /* Increased padding for mobile */
+  text-align: center;
+}
+
+.item .logo {position: relative;
+  top: 30px;
+  left: 100px;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+  margin-top: 10px; /* Adjusted margin for mobile */
+}
+
+.item p, h2 {
+  text-align: center;
+}
+
+.item h1 {
+  text-align: center;
+}
+
+.item h2 {
+  text-align: center;
+}
+
+.item4 h2 {
+  text-align: center;
+}
+
+.item p {
+  text-align: center;
+}
+
+.item button {
+  width: 100%;
+  margin-top: 10px; /* Adjusted margin for mobile */
+}
+
+/* 'chickencourse' styles */
+.chickencourse {
+  width: 100%;
+  background: rgb(16, 27, 16);
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.chickencourse .chicken {
+  font-family: "Croissant One", serif;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+/* 'foodmenu' styles in 'chickencourse' */
+.chickencourse .foodmenu {
+  width: 100%;
+  text-align: center;
+}
+
+.chickencourse .item {
+  width: 100%;
+}
